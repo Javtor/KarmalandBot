@@ -26,8 +26,7 @@ cumples = {
 
 print(day, flush=True)
 
-day = "13-02"
 msg = "Hoy no cumple años ningún miembro de Karmaland 4"
 if(day in cumples):
     msg = "Hoy cumple años "+cumples[day]
-api.update_status(msg+ " " + str(randint(0, 600)))
+api.update_status(msg)
